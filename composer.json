@@ -1,0 +1,23 @@
+{
+    "name": "arabhossain/pory-core",
+    "description": "Pory core module",
+    "authors": [
+        {
+            "name": "Arab Hossain",
+            "email": "green.arab1995@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pory\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pory\\Core\\ServiceProviders\\PoryCoreServiceProvider"
+            ]
+        }
+    }
+}
